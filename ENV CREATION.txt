@@ -1,0 +1,3 @@
+conda create -p tezeract python==3.10 -y
+conda activate tezeract/
+pip install -r requirements.txt
