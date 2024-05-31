@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get('/')
 def index():
-    return {'Welcome Tezeract to AI Captioning API': 'Please use the http://127.0.0.1:8000/docs endpoint to post a video file for captioning & clip extraction.}'}
+    return {'Welcome Tezeract to AI Captioning & Clip Extracting API': 'Please use the http://127.0.0.1:8000/docs endpoint to post a video file for captioning & clip extracting.}'}
  
 @app.post("/post-video_captioning/")
 async def vid_caption(file: UploadFile = File(...)):
