@@ -6,3 +6,4 @@ fastapi
 uvicorn
 pillow
 opencv-python
+sentence_transformers
