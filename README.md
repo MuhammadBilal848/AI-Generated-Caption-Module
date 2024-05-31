@@ -36,7 +36,7 @@ conda activate tezeract/
 pip install -r requirements.txt
 ```    
 
-9. Now run **Flask Application** by running this command:
+9. Now run **FASTAPI Application** by running this command:
 ```bash
 python app.py
 ```
